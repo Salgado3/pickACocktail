@@ -16,7 +16,7 @@ html {
  background-size: cover;
 }
 button, input{
-  box-shadow: green 4px 5px;
+  box-shadow: rgb(170, 158, 90) 4px 5px;
 }
 img{
   display: block;
@@ -28,6 +28,14 @@ h3 {
   width: 50vw;
   margin: 0 auto;
   padding-top: 5%;
+  color: wheat;
+}
+h4, h5 {
+  font-size: 32px;
+  width: 50vw;
+  margin: 0 auto;
+  padding-top: 1%;
+  color: wheat;
 }
 
 
