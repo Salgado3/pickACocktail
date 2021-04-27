@@ -12,6 +12,8 @@
 /*******************************************/
 html {
  background: rgb(113, 124, 113);
+ background-image: url(https://images.unsplash.com/photo-1607328874414-4d6c39edde49?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80);
+ background-size: cover;
 }
 button, input{
   box-shadow: green 4px 5px;
