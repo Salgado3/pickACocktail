@@ -16,21 +16,20 @@ html {
  background-size: cover;
 }
 button, input{
-  box-shadow: rgb(170, 158, 90) 4px 5px;
+  box-shadow: rgb(170, 158, 90) 5px 6px;
 }
 img{
   display: block;
-  height: 50vh;
+  height: 70vh;
   margin: 0 auto;
   border-radius: 50% 50%;
 }
 input {
-  margin-top: 32px;
   margin-left: 2.5%;
   display: block;
 }
 button{
-  margin-left: 8%;
+  margin-left: 2.5%;
   display: block;
 }
 h1{
@@ -39,6 +38,14 @@ h1{
   margin-left: 32px;
   border-radius: 50% 50%;
   display: inline;
+}
+h2 {
+  font-size: 4rem;
+  font-style: oblique;
+  color: #571FDB;
+  display: inline-block;
+  margin: 0 50%;
+
 }
 h3 {
   width: 50vw;
