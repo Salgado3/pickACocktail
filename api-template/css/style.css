@@ -16,6 +16,7 @@ html {
  background-size: cover;
 }
 button, input{
+  display: inline-flex;
   box-shadow: rgb(170, 158, 90) 5px 6px;
 }
 img{
@@ -35,7 +36,7 @@ button{
 h1{
   color: blue;
   border: 2px solid wheat;
-  margin-left: 32px;
+  margin-left: 2.5%;
   border-radius: 50% 50%;
   display: inline;
 }
