@@ -8,19 +8,26 @@ function getDrink(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
-        let drinkName = data.drinks[0].strDrink
-        let drinkThumb = data.drinks[0].strDrinkThumb
-        let drinkInst = data.drinks[0].strInstructions
-        let drinkIngredients = data.drinks[0].strIngredient1
-        let drinkIngredients2 = data.drinks[0].strIngredient2
-
+        let randomDrink = Math.floor(Math.random() * 5)
+        let drinkName = data.drinks[randomDrink].strDrink
+        let drinkThumb = data.drinks[randomDrink].strDrinkThumb
+        let drinkInst = data.drinks[randomDrink].strInstructions
+        
         document.querySelector('h2').innerText = drinkName
         document.querySelector('img').src = drinkThumb
-        document.querySelector('h3').innerText = drinkInst
-        document.querySelector('h4').innerText = drinkIngredients
-        document.querySelector('h5').innerText = drinkIngredients2
+        document.querySelector('h3').innerText = drinkInst})
+        // document.querySelector('h4').innerText = drinkIngredients
+        // document.querySelector('h5').innerText = drinkIngredients2
 
-      })
+      // }),
+      // .then data => {
+      //   let drinkIngredients = data.drinks[0].strIngredient1
+      //   let drinkIngredients2 = data.drinks[0].strIngredient2
+      //   let drinkIngredients2 = data.drinks[0].strIngredient3
+      //   let drinkIngredients2 = data.drinks[0].strIngredient4
+      //   let drinkIngredients2 = data.drinks[0].strIngredient5
+
+      // }
       .catch(err => {
           console.log(`error ${err}`)
       })
