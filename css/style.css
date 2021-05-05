@@ -23,7 +23,7 @@ img{
   display: block;
   height: 70vh;
   margin: 0 auto;
-  border-radius: 25% 75% 34% 66% / 30% 47% 53% 70% ;
+  border-radius: 50% 50%;
 }
 input {
   margin-left: 2.5%;
